@@ -1,0 +1,293 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+/*header*/
+.Header1{
+    background-color: black;
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+/* aqui va el el titulo de grandes ofertas*/
+.headerTitulo{
+    font-size: 15px;
+    padding-left: 100px;
+    align-self: center;
+}
+.opcionesRegion{
+    padding-right: 500px;
+    color: white;
+    border: 10;
+    white-space: unset;
+    background-color: initial;
+    font-size: 10px;
+    line-break: 0;
+}
+/* barra de navegacion naranja*/
+nav {
+    display: flex;
+    height: 72px;
+    background: #F0A83E;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px 20px 10px;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 1em;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+nav ul li{
+    margin:2em 2em;
+}
+nav img{
+    padding-left: 3em;
+}
+/*main*/
+#fondo{
+    display: flex;
+    background-image: url("img/bowl-and-pet-daities-on-green-background\ 1.png");
+    background-size: cover;
+    height: 409px;
+    justify-content: flex-end;
+}
+.textoFondo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+}
+#fondo h2{
+    background-color:#F3F3F3 ;
+    border-radius: 5px;
+    color:#3C2313 ;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0.5em 2em;
+    text-align: center;
+    font-weight: 500; 
+}
+#fondo p{
+    color:#3C2313 ;
+    font-size: 16px;
+    text-align: center;
+    margin: 1em;
+}
+.comederos{
+    width: 141px;
+    height: 49px;
+    background-color:#F0A83E ;
+    border-radius: 5px;
+    border: none;
+    color: #F3F3F3;
+    font-weight: bold;
+}
+.cabecera{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+.cabecera ul{
+    list-style: none;
+}
+.cabecera img{
+    padding: 00.5em;
+}
+.cabecera h1 {
+    font-size: 40px;
+    color: #3C2313;
+    font-weight: 700;
+}
+.cabecera ul {
+    display: flex;
+    justify-content:center;
+    list-style: none; 
+    align-items: center;
+}
+.cabecera ul li{
+    margin: 0 1em 0 1em;
+}
+.cabecera a{
+    text-decoration: none;
+    color: #666666;
+    font-size: 1em;
+}
+/*seccion de los productos*/
+.galeria_productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    padding: 1em;
+}
+.producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    background-color:#FBFAF6;
+}
+.nombre_producto {
+    padding: 0.5em;
+    font-size: 15px;
+    color: #3C2313;
+}
+.precio_producto {
+    padding-bottom: 1em;
+    font-size: 15px;
+    color:#F0A83E;
+}
+/*seccion del formulario*/
+.formulario_contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formulario_contacto h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #3C2313;
+    margin-bottom: 0.5em;
+}
+
+
+.mailform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mailform input {
+    width: 340px;
+    height: 40px;
+    left: calc(50% - 340px/2 + 1px);
+    top: calc(50% - 40px/2 + 275.5px);
+    background: #3C2313;
+    border-radius: 15px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 9px;
+    padding-left: 2em;
+    margin: 1em;
+}
+
+
+.enviarelformulario {
+    margin-top:2em ;
+}
+
+.resettoboton {
+    width: 110px;
+    height: 34px;
+    background: #8A8787;
+    border-radius: 15px;
+    border: none;
+    color: #F3F3F3;
+    font-size: 16px;
+}
+
+.contactoboton {
+    width: 110px;
+    height: 34px;
+    background: #F0A83E;
+    border-radius: 15px;
+    border: none;
+    color: #F3F3F3;
+    font-size: 16px;
+}
+
+/* ----------------------------*/
+/*barra de suscripcion*/
+.suscripcion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0A83E;
+    padding: 1em;
+    margin-top: 4em;
+
+}
+
+.suscripcion_barra{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+}
+
+.suscripcion_barra h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight:700;
+    margin-left: 1em;
+}
+
+.mailform2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#email_usuario1 {
+    width: 271px;
+    height: 40px;
+    left: calc(50% - 271px/2 + 254.5px);
+    top: calc(50% - 40px/2 + 575.5px);
+    background: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    margin-right: 0.5em;
+    font-size: 9px;
+    color: #A0A0A0;
+    padding-left: 1em;
+}
+
+.suscboton {
+    width: 70px;
+    height: 34px;
+    left: calc(50% - 70px/2 + 430px);
+    top: calc(50% - 34px/2 + 575.5px);
+    background: #3C2313;
+    border-radius: 15px;
+    border: none;
+    color:#FFFFFF;
+    font-size: 9px;
+    font-weight: 700;
+    margin-right: 2em;
+}
+
+/* ----------------------------*/
+/*footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C2313;
+    color: #FFFFFF;
+    padding: 2em 4em 0 4em;
+}
+
+.footer_info {
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+.footer_info_texto {
+    margin-left: 2em;
+}
